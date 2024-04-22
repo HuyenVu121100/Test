@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# Random User App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that fetches random user data from the Random User Generator API and displays it in a paginated list.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get this project up and running on your local machine, follow these steps:
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Node.js and npm installed on your machine.
 
-- Configure the top-level `parserOptions` property like this:
+### Installing
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository to your local machine:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+2. Navigate to the project directory:
+
+
+3. Install the dependencies:
+
+
+### Running the App
+
+1. After the installation is complete, you can start the development server by running the following command:
+
+
+2. Open your web browser and navigate to http://localhost:5173/ to view the app.
+
+### Using the App
+
+- The app will display a list of random users fetched from the API.
+- You can search for users by their first name using the search input field.
+- You can filter users by alphabetical order or by age using the filter dropdown menu.
+- Pagination buttons are provided to navigate through the list of users.
+
+### Built With
+
+- React.js
+- Axios
+- Material-UI
+- Bootstrap
+
+## Authors
+
+- Your Name
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
